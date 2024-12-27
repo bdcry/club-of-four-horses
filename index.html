@@ -6,10 +6,73 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Golos Text"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/icons/favicon-logo.ico"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Club Of Four Horses</title>
   </head>
   <body>
-    <script type="module" src="script.js"></script>
+    <!-- Header -->
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <a href="./index.html" class="logo">
+          <img
+            src="./assets/icons/header-logo.svg"
+            alt="Logo"
+            class="logo__image"
+          />
+        </a>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="wrapper hero__wrapper">
+          <div class="hero__content">
+            <div class="hero__headline">
+              <h1 class="text--h1">
+                Превратите уездный город 
+                <span class="hero__headline--offset">в столицу</span>
+                <span class="hero__headline--offset-next">земного шара</span>
+              </h1>
+            </div>
+            <div class="hero__paragraph">
+              <p class="text--p text--p-right">
+                Оплатите взнос на телеграммы для организации Международного
+                васюкинского турнира по шахматам
+              </p>
+            </div>
+            <div class="hero__buttons">
+              <button class="button button--black">
+                <p class="text--button">Поддержать шахматную мысль</p>
+              </button>
+              <button class="button button--clear">
+                <p class="text--button">Подробнее о турнире</p>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="running">
+        <div class="running__wrapper wrapper">
+          <p class="running__text">
+            Дело помощи утопающим — дело рук самих утопающих! • Шахматы двигают вперёд
+            не только культуру, но и экономику! • Лёд тронулся, господа присяжные заседатели!
+          </p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
