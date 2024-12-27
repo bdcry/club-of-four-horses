@@ -179,7 +179,7 @@ main {
 }
 
 /* Adaptive for mobiles */
-@media (width >= 375px) and (width <= 1335px) {
+@media (min-width: 375px) and (max-width: 1335px) {
   /* Header */
   .logo__image {
     height: 32px;
