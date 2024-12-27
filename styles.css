@@ -99,7 +99,7 @@ main {
   min-height: 160px;
 }
 
-.hero__headline--offset  {
+.hero__headline--offset {
   padding-left: 91px;
 }
 
@@ -131,14 +131,14 @@ main {
   background-color: rgba(31, 31, 31, 1);
   color: white;
   border-radius: 50px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .button--clear {
   padding: 20px 49px;
   border: 1px solid black;
   border-radius: 50px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   display: flex;
 }
 
@@ -176,7 +176,6 @@ main {
   text-transform: uppercase;
   line-height: 110%;
 }
-
 
 /* Adaptive for mobiles */
 @media (min-width: 375px) and (max-width: 1335px) {
