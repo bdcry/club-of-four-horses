@@ -5,7 +5,7 @@
 
 body {
   box-sizing: border-box;
-  overflow:hidden;
+  overflow-x: hidden;
 }
 
 html {
@@ -60,7 +60,6 @@ button {
 /* Main */
 main {
   width: 100%;
-  margin: auto;
 }
 
 /* Hero Section */
@@ -82,7 +81,7 @@ main {
 }
 
 .hero__content {
-  padding-top: 120px;
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -154,6 +153,7 @@ main {
 /* Running Section */
 .running {
   width: 100%;
+  overflow: hidden;
 }
 
 .running__wrapper {
@@ -175,6 +175,41 @@ main {
   line-height: 110%;
 }
 
+/* Lection Section */
+.lection {
+  padding-top: 80px;
+  padding-bottom: 64px;
+}
+
+.lection__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lection__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 64px;
+}
+
+.lection__header {
+  font-family: 'Merriweather';
+  font-size: 36px;
+  font-weight: 400;
+  max-width: 764px;
+  color: #313131;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.lection__highlight {
+  color: #F54932;
+}
+
 /* Adaptive for mobiles */
 @media (min-width: 375px) and (max-width: 1335px) {
   /* Header */
@@ -190,7 +225,8 @@ main {
   /* Hero Section */
   .hero__wrapper {
     margin: 0;
-    padding: 5% 7%;
+    padding: 20px;
+    width: calc(100% - 40px);
   }
 
   .hero__content {
@@ -244,5 +280,31 @@ main {
 
   .running__text {
     font-size: 16px;
+  }
+
+  /* Lection Section */
+  .lection {
+    padding-top: 42px;
+    padding-bottom: 34px;
+  }
+
+  .lection__wrapper {
+    padding: 20px 0;
+  }
+
+  .lection__content {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .lection__header {
+    font-size: 28px;
+    text-align: left;
+    max-width: 300px;
+  }
+
+  .lection__image {
+    width: 335px;
   }
 }
