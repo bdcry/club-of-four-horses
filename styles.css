@@ -65,7 +65,7 @@ main {
 
 /* Hero Section */
 .hero {
-  /* width: 100%; */
+  width: 100%;
   background-image: url('./assets/images/HeroSection.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -191,7 +191,6 @@ main {
   .hero__wrapper {
     margin: 0;
     padding: 5% 7%;
-    width: 90%;
   }
 
   .hero__content {
